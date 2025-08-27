@@ -1,32 +1,20 @@
-$breakpoints: (
-  sm: 30em,
-  md: 50em,
-  lg: 75em,
-);
-
 $colors: (
   darkblue: #264065,
   gray: #909090,
   black: #070d15,
   cyan: #a9d6cb,
-);
-
-/**
- * Use Utopia to generate responsive font sizes
- * @link https://utopia.fyi/type/calculator
- */
-$font-sizes: (
-  "300": 0.875rem,
-  "400": 1rem,
-  "500": 1.25rem,
-  "600": 1.5rem,
-  "700": 2rem,
-  "800": 2.5rem,
-  "900": 3.5rem,
+  "light-white": #faf8f5,
+  background: white,
 );
 
 $font-weights: (
-  "light": 300,
-  "regular": 400,
-  "bold": 700,
+  400: 400,
+  500: 500,
+  700: 700,
+);
+
+$font-sizes: (
+  text: 1.125rem,
+  main-title: 4rem,
+  subtitle: 2.25rem,
 );
