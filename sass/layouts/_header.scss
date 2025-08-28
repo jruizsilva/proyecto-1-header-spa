@@ -18,7 +18,7 @@
   color: var(--clr-darkblue);
 }
 
-.nav .nav__item:last-child .nav__link {
+.nav .nav__item:last-child .link {
   display: flex;
   gap: 0.5rem;
 }
@@ -36,16 +36,4 @@
 .auth {
   display: flex;
   gap: 2rem;
-}
-
-.auth .auth__link {
-  color: var(--clr-darkblue);
-}
-
-.auth .auth__button {
-  background-color: var(--clr-darkblue);
-  color: white;
-  padding: 1rem 2.5rem;
-  border-radius: 3.125rem;
-  text-decoration: none;
 }
