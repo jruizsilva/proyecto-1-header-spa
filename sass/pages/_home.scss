@@ -6,7 +6,7 @@
   left: 0;
   height: 820px;
   width: 100%;
-  max-width: 70%;
+  max-width: 63%;
   z-index: -1;
 }
 .hero::after {
@@ -17,8 +17,12 @@
   right: 0;
   height: 820px;
   width: 100%;
-  max-width: 30%;
+  max-width: 37%;
   z-index: -1;
+  background-image: url("../../assets/spa.svg");
+  background-repeat: no-repeat;
+  background-position-x: -130px;
+  background-position-y: 40px;
 }
 
 .hero__title {
