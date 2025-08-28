@@ -1,5 +1,42 @@
-main {
-  display: grid;
-  gap: 1.5rem;
-  justify-items: center;
+.hero::before {
+  content: "";
+  background: var(--clr-light-white);
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 820px;
+  width: 100%;
+  max-width: 70%;
+  z-index: -1;
+}
+.hero::after {
+  content: "";
+  background: var(--clr-cyan);
+  position: absolute;
+  top: 0;
+  right: 0;
+  height: 820px;
+  width: 100%;
+  max-width: 30%;
+  z-index: -1;
+}
+
+.hero__title {
+  color: var(--clr-darkblue);
+  font-size: var(--fs-main-title);
+  font-weight: var(--fw-700);
+  margin-bottom: 2rem;
+}
+.hero__description {
+  margin-bottom: 3.5rem;
+}
+
+.hero__container {
+  max-width: 50.5625rem;
+}
+
+.hero__cta {
+  display: flex;
+  align-items: center;
+  gap: 32px;
 }

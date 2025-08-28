@@ -1,7 +1,6 @@
 @use "../abstracts" as *;
 
 .button {
-  // @extend %btn;
   background-color: var(--clr-darkblue);
   color: white;
   padding: 1rem 2.5rem;
@@ -18,4 +17,14 @@
   &:hover {
     color: lighten(#264065, 10%);
   }
+}
+
+.button-secondary {
+  background-color: transparent;
+  color: var(--clr-darkblue);
+  padding: 1rem 2.5rem;
+  border-radius: 3.125rem;
+  text-decoration: none;
+  display: flex;
+  gap: 1rem;
 }
