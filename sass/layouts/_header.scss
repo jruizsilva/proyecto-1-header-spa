@@ -1,0 +1,51 @@
+.header {
+  padding: 2.0625rem 0;
+}
+
+.header .container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.nav {
+  display: flex;
+  gap: 3.5rem;
+}
+
+.nav a {
+  text-decoration: none;
+  color: var(--clr-darkblue);
+}
+
+.nav .nav__item:last-child .nav__link {
+  display: flex;
+  gap: 0.5rem;
+}
+
+.icons {
+  display: flex;
+  gap: 2rem;
+}
+
+.icons .icons__icon {
+  width: 2rem;
+  height: 2rem;
+}
+
+.auth {
+  display: flex;
+  gap: 32px;
+}
+
+.auth .auth__link {
+  color: var(--clr-darkblue);
+}
+
+.auth .auth__button {
+  background-color: var(--clr-darkblue);
+  color: white;
+  padding: 1rem 2.5rem;
+  border-radius: 3.125rem;
+  text-decoration: none;
+}
