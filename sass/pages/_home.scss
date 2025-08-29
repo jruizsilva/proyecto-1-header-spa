@@ -37,10 +37,50 @@
 
 .hero__container {
   max-width: 50.5625rem;
+  margin-bottom: 5.625rem;
 }
 
 .hero__cta {
   display: flex;
   align-items: center;
-  gap: 32px;
+  gap: 3rem;
+}
+
+.card-container {
+  border-radius: 1rem;
+  background-color: white;
+  backdrop-filter: blur(1rem);
+  padding: 2rem;
+  width: fit-content;
+}
+.card-list {
+  display: flex;
+  gap: 4.5rem;
+}
+.card-item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1.5rem;
+}
+
+.card-item__title {
+  font-size: var(--fs-subtitle);
+  color: var(--clr-darkblue);
+}
+
+.card-item__description {
+  max-width: 145px;
+  text-align: center;
+  margin: 0;
+}
+
+.card-item__icon-container {
+  background-color: var(--clr-cyan);
+  border-radius: 50%;
+  height: 4.5rem;
+  width: 4.5rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
