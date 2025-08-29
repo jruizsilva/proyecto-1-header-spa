@@ -19,7 +19,7 @@
   width: 100%;
   max-width: 37%;
   z-index: -1;
-  background-image: url("../../assets/spa.svg");
+  background-image: url("../../public/spa.svg");
   background-repeat: no-repeat;
   background-position-x: -130px;
   background-position-y: 40px;
@@ -88,7 +88,7 @@
 
 .comment-container::after {
   content: "";
-  background-image: url("../../assets/beauty-woman.png");
+  background-image: url("../../public/beauty-woman.png");
   position: absolute;
   top: 0;
   right: 0;
